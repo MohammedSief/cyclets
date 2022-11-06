@@ -1,0 +1,84 @@
+/* from https://fonts.google.com/specimen/Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*color: #e66d0a;*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f0964c;
+  background-color: #05340a;
+}
+
+.navbar-brand , .nav-link , .social{
+  color: #e66d0a;
+}
+
+a, a:hover {
+  color: #f0964c;
+  text-decoration: none;
+}
+
+/*
+.lightBgColor {
+  background-color: #24baef;
+}
+
+.bgTransparent {
+  background-color: rgba(36, 186, 239, .6);
+}
+
+.borderColor {
+  background-color: #a8a8a83d;
+}
+
+.borderHeight {
+  height: 1px;
+}
+
+.secondFontColor {
+  color: #949cb0;
+}
+
+*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-control{
+  background-color: transparent !important;
+  color: #e66d0a !important;
+}
+
+.btn-outline-orange {
+  --bs-btn-color: #e66d0a;
+  --bs-btn-border-color: #e66d0a;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #e66d0a;
+  --bs-btn-hover-border-color: #e66d0a;
+  --bs-btn-focus-shadow-rgb: 255, 193, 7;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #e66d0a;
+  --bs-btn-active-border-color: #e66d0a;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #e66d0a;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #e66d0a;
+  --bs-gradient: none;
+}
+
+/* to shape the img of the news */
+.article img {
+  width: 150px;
+  height: 150px;
+}
+
+#logOut{
+cursor: pointer;
+}
